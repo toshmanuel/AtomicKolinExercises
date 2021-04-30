@@ -15,5 +15,13 @@ fun main(args: Array<String>) {
     val v4: String = string + boolean
     val v5: Double = double + int
     val v6: Double = int + double
+    val v7: Char = char + int
+
+//    Cannot Combine
+//    val v8: Boolean = boolean + boolean
+//    val v9: Boolean = int + boolean
+//    val v10: Int = int + string
+//    val v11: Double = double + string
+//    val v12: Double = double + char
 
 }
