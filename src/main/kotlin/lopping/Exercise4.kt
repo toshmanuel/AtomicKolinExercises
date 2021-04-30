@@ -2,7 +2,7 @@ package lopping
 
 fun showHalfTriangle(value: Int){
     for (i in 1..value){
-        for (j in 1..i){
+        repeat(i){
             print("#")
         }
         println()
