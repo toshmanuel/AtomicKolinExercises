@@ -1,4 +1,4 @@
-package repitition
+package repetition
 
 fun displayContent(contents: String) {
     var counter = 0
