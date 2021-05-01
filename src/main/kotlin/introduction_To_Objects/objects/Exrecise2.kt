@@ -5,5 +5,5 @@ private fun palindrome(value: String): String =
 
 fun main(args: Array<String>) {
 
-    println(palindrome("hannah"))
+    println(palindrome("Bob".toLowerCase()))
 }
