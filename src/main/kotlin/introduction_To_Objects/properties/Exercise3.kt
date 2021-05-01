@@ -1,11 +1,11 @@
 package introduction_To_Objects.properties
 
 class Robot1{
-    private var x = 0
-    private var y = 0
-    private var size = 100
+    var x = 0
+    var y = 0
+    var size = 100
 
-    private fun crossBoundary(coordinate: Int): Int{
+    fun crossBoundary(coordinate: Int): Int{
         val inBounds = coordinate % size
 
         return if (inBounds < 0){
