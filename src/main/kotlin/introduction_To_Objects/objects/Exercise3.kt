@@ -3,7 +3,7 @@ package introduction_To_Objects.objects
 fun isPalindrome(value: String): Boolean =
     value == value.reversed()
 
-fun isPalidromeWithoutSpecial(value: String): Boolean {
+fun isPalindromeWithoutSpecial(value: String): Boolean {
     var withoutSpecial = ""
 
     for (i in value){
@@ -18,5 +18,5 @@ fun isPalindromeIgnoreCase(value: String): Boolean =
     isPalindrome(value.toLowerCase())
 
 fun main() {
-    println(isPalidromeWithoutSpecial("Madam I'm Adam"))
+    println(isPalindromeWithoutSpecial("Madam I'm Adam"))
 }
