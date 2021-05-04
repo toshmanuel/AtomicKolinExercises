@@ -3,7 +3,7 @@ package introduction_To_Objects.lists
 fun findMax(numbers: List<Int>): Int{
 
     var max = numbers[0]
-    for(i in 1..numbers.size){
+    for(i in 1 until numbers.size){
         if(numbers[i] >= max){
             max = numbers[i]
         }
