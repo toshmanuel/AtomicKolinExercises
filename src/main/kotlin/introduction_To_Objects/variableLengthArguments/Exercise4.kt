@@ -15,6 +15,9 @@ fun main() {
 
 
     //sample code for IntRange
+
+    val r = IntRange(0, 10)
+    println(r.sum())
     val r1 = IntRange(0, 10)
     val r2 = IntRange(5, 7)
     println(r1)
