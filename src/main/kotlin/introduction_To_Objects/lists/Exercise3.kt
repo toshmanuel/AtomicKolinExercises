@@ -8,4 +8,7 @@ fun main() {
     println(anagram("joy", "oyj"))
 
     println(anagram("mites", "times"))
+
+
+    println(anagram("sword", "word"))
 }
